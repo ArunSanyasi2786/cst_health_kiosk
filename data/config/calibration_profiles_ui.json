@@ -1,0 +1,126 @@
+{
+  "last_saved": "Saved to protected runtime",
+  "profiles": {
+    "temperature": {
+      "sensor_key": "temperature",
+      "enabled": true,
+      "offset": 1.0,
+      "scale": 1.0,
+      "samples": 20,
+      "tolerance": 0.2,
+      "state": "saved",
+      "last_calibrated": "Saved in current admin session",
+      "summary": "Temperature profile is saved and ready for runtime use.",
+      "label": "Temperature Sensor",
+      "unit": "\u00b0C",
+      "manual_offset_options": [
+        0.0,
+        0.3,
+        0.5
+      ],
+      "calibration_min": 0.0,
+      "calibration_mid": 33.6,
+      "calibration_max": 41.0,
+      "update_frequency_seconds": 5
+    },
+    "spo2": {
+      "sensor_key": "spo2",
+      "enabled": true,
+      "offset": 0.0,
+      "scale": 1.0,
+      "samples": 8,
+      "tolerance": 1.5,
+      "state": "saved",
+      "last_calibrated": "Saved in current admin session",
+      "summary": "SpO\u2082 profile is saved and ready for runtime use.",
+      "label": "SpO2 Sensor",
+      "unit": "%",
+      "manual_offset_options": [
+        0.0,
+        1.0,
+        2.0
+      ],
+      "calibration_min": 90.0,
+      "calibration_mid": 95.0,
+      "calibration_max": 100.0,
+      "update_frequency_seconds": 5
+    },
+    "pulse": {
+      "sensor_key": "pulse",
+      "enabled": true,
+      "offset": 0.0,
+      "scale": 1.0,
+      "samples": 8,
+      "tolerance": 4.0,
+      "state": "saved",
+      "last_calibrated": "Saved in current admin session",
+      "summary": "Pulse profile is saved and ready for runtime use."
+    },
+    "weight": {
+      "sensor_key": "weight",
+      "enabled": true,
+      "offset": 0.0,
+      "scale": 1.0,
+      "samples": 6,
+      "tolerance": 0.5,
+      "state": "saved",
+      "last_calibrated": "Saved in current admin session",
+      "summary": "Weight profile is saved and ready for runtime use.",
+      "label": "Weight Sensor",
+      "unit": "kg",
+      "manual_offset_options": [
+        0.0,
+        0.3,
+        0.5
+      ],
+      "calibration_min": 5.0,
+      "calibration_mid": 80.0,
+      "calibration_max": 200.0,
+      "update_frequency_seconds": 5
+    },
+    "height": {
+      "sensor_key": "height",
+      "enabled": true,
+      "offset": 0.0,
+      "scale": 1.0,
+      "samples": 5,
+      "tolerance": 1.0,
+      "state": "saved",
+      "last_calibrated": "Saved in current admin session",
+      "summary": "Height profile is saved and ready for runtime use.",
+      "label": "Height Sensor",
+      "unit": "cm",
+      "manual_offset_options": [
+        0.0,
+        0.3,
+        0.5
+      ],
+      "calibration_min": 100.0,
+      "calibration_mid": 170.0,
+      "calibration_max": 220.0,
+      "update_frequency_seconds": 5
+    },
+    "respiratory_rate": {
+      "sensor_key": "respiratory_rate",
+      "enabled": true,
+      "offset": 0.0,
+      "scale": 1.0,
+      "samples": 6,
+      "tolerance": 2.0,
+      "state": "saved",
+      "last_calibrated": "Saved in current admin session",
+      "summary": "Respiratory profile is saved and ready for runtime use.",
+      "label": "Respiratory Rate Sensor",
+      "unit": "breaths/min",
+      "manual_offset_options": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "calibration_min": 8.0,
+      "calibration_mid": 16.0,
+      "calibration_max": 30.0,
+      "update_frequency_seconds": 5
+    }
+  }
+}

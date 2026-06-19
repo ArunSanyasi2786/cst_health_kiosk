@@ -1,0 +1,48 @@
+{
+    "app": {
+        "name": "CST Health Monitoring Station",
+        "version": "1.0.0",
+        "organization": "College of Science and Technology",
+        "group_credit": "Group 3"
+    },
+    "display": {
+        "brightness_percent": 75,
+        "screen_timeout": "15_min",
+        "theme_mode": "dark",
+        "language": "English",
+        "fullscreen": true,
+        "fixed_resolution": [
+            1024,
+            600
+        ]
+    },
+    "audio": {
+        "enabled": true,
+        "volume_percent": 55
+    },
+    "system": {
+        "runtime_mode": "demo",
+        "network_connected": false,
+        "admin_lock": false,
+        "data_export_enabled": true,
+        "show_demo_mode_badge": true,
+        "auto_backup_enabled": false
+    },
+    "hardware": {
+        "preferred_serial_port": "COM3",
+        "serial_baudrate": 115200,
+        "serial_timeout_seconds": 1.0,
+        "auto_reconnect_seconds": 3.0,
+        "hardware_measurement_failsafe_timeout_ms": 45000
+    },
+    "timing": {
+        "welcome_screen_duration_ms": 4000,
+        "demo_measurement_duration_ms": 5500,
+        "transition_duration_ms": 320,
+        "button_click_animation_ms": 140,
+        "logo_glow_pulse_ms": 1500,
+        "results_auto_refresh_ms": 1000,
+        "publish_refresh_interval_ms": 6000,
+        "connection_status_refresh_ms": 3000
+    }
+}

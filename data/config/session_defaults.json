@@ -1,0 +1,25 @@
+{
+    "session": {
+        "default_runtime_mode": "demo",
+        "allow_manual_mode_switch": true,
+        "anonymous_users_only": true
+    },
+    "measurement": {
+        "demo_duration_ms": 5500,
+        "hardware_wait_until_complete": true,
+        "generate_pdf_report": true,
+        "generate_qr_report": true,
+        "store_measurements_in_database": true
+    },
+    "consult": {
+        "ambulance_number": "112",
+        "enable_dynamic_tips": true
+    },
+    "details": {
+        "enable_bmi_detail_screen": true,
+        "enable_temperature_detail_screen": true,
+        "enable_spo2_detail_screen": true,
+        "enable_pulse_detail_screen": true,
+        "enable_rr_detail_screen": true
+    }
+}

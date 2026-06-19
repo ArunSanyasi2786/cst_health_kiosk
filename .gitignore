@@ -216,3 +216,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# CST Health Kiosk runtime/generated data
+data/db/*
+data/logs/*
+data/exports/*
+data/reports/*
+data/qr/*
+data/share/*
+data/temp/*
+data/backups/*
+!data/db/.gitkeep
+!data/logs/.gitkeep
+!data/exports/.gitkeep
+!data/reports/.gitkeep
+!data/qr/.gitkeep
+!data/share/.gitkeep
+!data/temp/.gitkeep
+!data/backups/.gitkeep
+
+# Office temporary lock files
+~$*
+
+# Large local backup archives
+*.zip
+*.7z
+*.rar

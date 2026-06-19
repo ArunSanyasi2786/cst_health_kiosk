@@ -1,0 +1,69 @@
+{
+    "weight": {
+        "display_unit": "kg",
+        "normal_note": "Weight is shown as measured and interpreted together with BMI."
+    },
+    "height": {
+        "display_unit": "cm",
+        "normal_note": "Height is shown as measured and used for BMI calculation."
+    },
+    "bmi": {
+        "display_unit": "",
+        "underweight_max": 18.4,
+        "normal_min": 18.5,
+        "normal_max": 24.9,
+        "overweight_min": 25.0,
+        "overweight_max": 29.9,
+        "obese_min": 30.0
+    },
+    "temperature": {
+        "display_unit": "°C",
+        "normal_min": 36.0,
+        "normal_max": 37.0,
+        "mild_fever_min": 37.1,
+        "mild_fever_max": 38.0,
+        "high_fever_min": 38.1,
+        "high_fever_max": 40.0,
+        "very_high_fever_min": 40.1
+    },
+    "spo2": {
+        "display_unit": "%",
+        "normal_min": 95.0,
+        "normal_max": 100.0,
+        "concerning_min": 91.0,
+        "concerning_max": 94.0,
+        "low_min": 80.0,
+        "low_max": 90.0,
+        "critical_max": 79.0
+    },
+    "pulse_rate": {
+        "display_unit": "bpm",
+        "low_max": 59.0,
+        "normal_min": 60.0,
+        "normal_max": 100.0,
+        "high_min": 101.0,
+        "high_max": 120.0,
+        "critical_min": 121.0
+    },
+    "respiratory_rate": {
+        "display_unit": "breaths/min",
+        "low_max": 11.0,
+        "normal_min": 12.0,
+        "normal_max": 20.0,
+        "high_min": 21.0,
+        "high_max": 24.0,
+        "critical_min": 25.0
+    },
+    "diagnosis": {
+        "priority_order": [
+            "spo2",
+            "temperature",
+            "pulse_rate",
+            "respiratory_rate",
+            "bmi"
+        ],
+        "normal_message": "All measured parameters are within acceptable range.",
+        "needs_attention_message": "Some parameters need attention. Please review advice.",
+        "critical_message": "Critical condition detected. Seek immediate help."
+    }
+}

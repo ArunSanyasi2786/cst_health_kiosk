@@ -1,0 +1,47 @@
+# ============================================================
+# CST Health Kiosk - Python Requirements
+# Target UI: PyQt6
+# Target platforms:
+#   - Windows / VS Code demo
+#   - Raspberry Pi 4B deployment
+# ============================================================
+
+# -----------------------------
+# Core GUI framework
+# -----------------------------
+PyQt6>=6.6,<7.0
+
+# -----------------------------
+# Serial communication
+# For ESP32 <-> Raspberry Pi / laptop communication
+# -----------------------------
+pyserial>=3.5,<4.0
+
+# -----------------------------
+# QR code generation
+# Used for session-based QR reports
+# -----------------------------
+qrcode[pil]>=7.4,<9.0
+
+# -----------------------------
+# Image support
+# Used by qrcode and optional asset processing
+# -----------------------------
+Pillow>=10.0,<12.0
+
+# -----------------------------
+# PDF report generation
+# Used for health report export and QR-linked PDF creation
+# -----------------------------
+reportlab>=4.0,<5.0
+
+# -----------------------------
+# System and storage inspection
+# Useful for storage screen, disk usage, and runtime status
+# -----------------------------
+psutil>=5.9,<7.0
+
+# -----------------------------
+# Testing
+# -----------------------------
+pytest>=8.0,<9.0

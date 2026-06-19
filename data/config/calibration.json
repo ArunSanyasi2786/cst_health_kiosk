@@ -1,0 +1,98 @@
+{
+    "temperature": {
+        "label": "Temperature Sensor",
+        "unit": "°C",
+        "offset": 1.0,
+        "manual_offset_options": [
+            0.0,
+            0.3,
+            0.5
+        ],
+        "calibration_min": 0.0,
+        "calibration_mid": 33.6,
+        "calibration_max": 41.0,
+        "update_frequency_seconds": 5
+    },
+    "spo2": {
+        "label": "SpO2 Sensor",
+        "unit": "%",
+        "offset": 0.0,
+        "manual_offset_options": [
+            0.0,
+            1.0,
+            2.0
+        ],
+        "calibration_min": 90.0,
+        "calibration_mid": 95.0,
+        "calibration_max": 100.0,
+        "update_frequency_seconds": 5
+    },
+    "weight": {
+        "label": "Weight Sensor",
+        "unit": "kg",
+        "offset": 0.0,
+        "manual_offset_options": [
+            0.0,
+            0.3,
+            0.5
+        ],
+        "calibration_min": 5.0,
+        "calibration_mid": 80.0,
+        "calibration_max": 200.0,
+        "update_frequency_seconds": 5
+    },
+    "height": {
+        "label": "Height Sensor",
+        "unit": "cm",
+        "offset": 0.0,
+        "manual_offset_options": [
+            0.0,
+            0.3,
+            0.5
+        ],
+        "calibration_min": 100.0,
+        "calibration_mid": 170.0,
+        "calibration_max": 220.0,
+        "update_frequency_seconds": 5
+    },
+    "pulse_rate": {
+        "label": "Pulse Rate Sensor",
+        "unit": "bpm",
+        "offset": 0.0,
+        "manual_offset_options": [
+            0.0,
+            1.0,
+            2.0
+        ],
+        "calibration_min": 50.0,
+        "calibration_mid": 85.0,
+        "calibration_max": 150.0,
+        "update_frequency_seconds": 5
+    },
+    "respiratory_rate": {
+        "label": "Respiratory Rate Sensor",
+        "unit": "breaths/min",
+        "offset": 0.0,
+        "manual_offset_options": [
+            0.0,
+            0.5,
+            1.0
+        ],
+        "calibration_min": 8.0,
+        "calibration_mid": 16.0,
+        "calibration_max": 30.0,
+        "update_frequency_seconds": 5
+    },
+    "bmi": {
+        "label": "BMI",
+        "unit": "",
+        "offset": 0.0,
+        "manual_offset_options": [
+            0.0
+        ],
+        "calibration_min": 10.0,
+        "calibration_mid": 22.0,
+        "calibration_max": 40.0,
+        "update_frequency_seconds": 5
+    }
+}
